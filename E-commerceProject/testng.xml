@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+<listeners class-name="com.ec.utility.ListenerClass"/>
+</listeners>
+  <test thread-count="5" name="Test">
+  
+    <classes>
+    <class name="com.ec.testcases.LoginTest"/>
+      <class name="com.ec.testcases.HomeTest"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
